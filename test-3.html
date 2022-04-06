@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .poka01 {
+            float: left;
+            padding: 20px;
+        }
+        .left{
+            width: 10%;
+            background-color: rgb(133, 216, 219);
+            float: left;
+            padding: 20px;
+        }
+        .main{
+            width: 50%;
+            background-color: rgb(240, 171, 240);
+            float: left;
+            padding: 20px;
+        }
+        .right{
+            width: 30%;
+            background-color: rgb(144, 235, 122);
+            float: left;
+            padding: 20px;
+        }
+        .poka {
+            max-width: 100%;
+        }
+        .poka02 {
+            background-image: url('03.png');
+        }
+        @media screen and (max-width: 800px) and (min-width :600px) {
+            .left {
+                width: 40%;
+                /* float: right; */
+            }
+            .main {
+                width: 60%;
+            }
+            .right {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="poka02">
+    <h1>
+        這是一個版型
+    </h1>
+    
+    <div class="left poka01">這是左邊</div>
+    <div class="main poka01"><img src="01.png" alt="" class="poka"></div>
+    <div class="right poka01">這是右邊</div>
+</body>
+</html>
